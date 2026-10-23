@@ -12,10 +12,11 @@ echo 'Your name was stored in $name'
 # filename and create an empty file named after it
 #!/bin/bash
 
-echo "Enter a filename:"
+echo "Welcome to Colson's file creator!"
+echo "Please enter a filename:"
+
 read filename
 
 touch "$filename"
 
-echo "File $filename has been created!"
-
+echo "Success! Your file $filename has been created!"
